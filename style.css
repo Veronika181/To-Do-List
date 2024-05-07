@@ -43,12 +43,12 @@ input{
     outline: none;
     background: transparent;
     padding: 10px;
-    font-weight: 14px;
+    font-size: 14px; /* Corrected typo here */
 }
 button{
     border: none;
     outline: none;
-    padding: 16 px 50px;
+    padding: 16px 50px;
     background: #ff5945;
     color: #fff;
     font-size: 16px;
@@ -96,5 +96,4 @@ ul li span{
 }
 ul li span:hover{
     background: #edeef0;
-
 }
