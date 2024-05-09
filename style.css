@@ -4,12 +4,14 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+/* Main container styles */
 .container{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
 }
+/* To-Do List application styles */
 .todo-app{
     width: 100%;
     max-width: 540px;
@@ -18,16 +20,21 @@
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
+
+/* To-Do List title styles */
 .todo-app h2{
     color: #002765;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
+
+/* To-Do List title styles */
 .todo-app h2 img{
     width: 30px;
     margin-left: 10px;
 }
+/* Row styles for input and button */
 .row{
     display: flex;
     align-items: center;
@@ -37,6 +44,7 @@
     padding-left: 20px;
     margin-bottom: 25px;
 }
+/* Input field styles */
 input{
     flex: 1;
     border: none;
@@ -45,6 +53,7 @@ input{
     padding: 10px;
     font-size: 14px; /* Corrected typo here */
 }
+/* Button styles */
 button{
     border: none;
     outline: none;
@@ -55,6 +64,7 @@ button{
     cursor: pointer;
     border-radius: 40px;
 }
+/* Task list styles */
 ul li{
     list-style: none;
     font-size: 17px;
@@ -63,6 +73,7 @@ ul li{
     cursor: pointer;
     position: relative;
 }
+/* Task item icon styles */
 ul li::before{
     content: '';
     position: absolute;
@@ -75,13 +86,16 @@ ul li::before{
     top: 12px;
     left: 8px;
 }
+/* Completed task styles */
 ul li.checked{
     color: #555;
     text-decoration: line-through;
 }
+/* Completed task icon styles */
 ul li.checked::before{
     background-image: url(images/checked.png);
 }
+/* Delete task button styles */
 ul li span{
     position: absolute;
     right: 0;
@@ -94,6 +108,7 @@ ul li span{
     text-align: center;
     border-radius: 50%;
 }
+/* Hover styles for delete task button */
 ul li span:hover{
     background: #edeef0;
 }

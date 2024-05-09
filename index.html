@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Browser metadata -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Page title -->
     <title>To Do List App</title>
+    <!-- Link to external CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- Main container of the application -->   
 <div class="container">
     <div class="todo-app">
-        <h2>To-Do List <img src="images/icon.png"></h2>
+        <!-- Application title with an icon -->
+        <h2>To-Do List <img src="icon.png"></h2>
+        <!-- Row with input for new task and button -->
         <div class="row">
+            <!-- Input field for adding a new task -->
             <input type="text" id="input-box" placeholder="Add your text">
+            <!-- Button for adding a new task -->
             <button onclick="addTask()">Add</button>
         </div>
+        <!-- Task list -->
         <ul id="list-container">
+            <!-- Individual tasks will be dynamically added here -->
         </ul>
     </div> 
 </div> 
+<!-- Link to external JavaScript file -->
 <script src="script.js"></script>
 </body>
 </html>
